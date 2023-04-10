@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    /* Define a grid with three columns and three rows */
+    .grid-container {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: 100px 100px 100px;
+      gap: 10px;
+    }
+    
+    /* Define some styles for the grid items */
+    .grid-item {
+      background-color: #ddd;
+      padding: 20px;
+      font-size: 30px;
+      text-align: center;
+    }
+    
+    /* Override the style for the last grid item */
+    .grid-item:last-child {
+      background-color: #f00;
+    }
+  </style>
+</head>
+<body>
+  <div class="grid-container">
+    <div class="grid-item">1</div>
+    <div class="grid-item">2</div>
+    <div class="grid-item">3</div>
+    <div class="grid-item">4</div>
+    <div class="grid-item">5</div>
+    <div class="grid-item">6</div>
+    <div class="grid-item">7</div>
+    <div class="grid-item">8</div>
+    <div class="grid-item">9</div>
+  </div>
+</body>
+</html>
